@@ -59,7 +59,7 @@ namespace TrayCPUTool
                 if (++animationCounter == iconsArrayCounter)
                     animationCounter = 0;
 
-                uiTimer.Interval = (101 - (int)cpu.cpuUtilizationGet()) * 10;
+                uiTimer.Interval = (101 - (int)cpu.cpuUtilizationGet());
             }
         }
 
